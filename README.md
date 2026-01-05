@@ -1,4 +1,4 @@
-![CI/CD](https://github.com/iamAyushSaxena/product-analytics-notion-growth/workflows/Product%20Analytics%20CI%2FCD%20Pipeline/badge.svg)
+![CI/CD](https://github.com/iamAyushSaxena/Product-Analytics-Notion-Growth/workflows/Product%20Analytics%20CI%2FCD%20Pipeline/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-success.svg)
@@ -400,5 +400,6 @@ You'll learn:
 ---
 
 **⭐ If this project helped you, please star the repository!**
+
 
 **💼 Looking for a PM who can do this for your product? Let's connect!**
