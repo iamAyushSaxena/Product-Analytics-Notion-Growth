@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/synthetic/*.csv
+data/processed/*.csv
+outputs/figures/*.html
+outputs/figures/*.png
+outputs/dashboards/*.html
+outputs/reports/*.txt
+outputs/reports/*.pdf
+
+# But keep the directories
+!data/synthetic/.gitkeep
+!data/processed/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/dashboards/.gitkeep
+!outputs/reports/.gitkeep
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
