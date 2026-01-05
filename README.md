@@ -111,8 +111,6 @@ python -m venv venv
 
 # Activate virtual environment
 venv\Scripts\activate.bat
-
-# You should see (venv) in your prompt
 ```
 
 ### Step 3: Install Dependencies
@@ -403,3 +401,4 @@ You'll learn:
 
 
 **💼 Looking for a PM who can do this for your product? Let's connect!**
+
