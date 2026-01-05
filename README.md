@@ -173,7 +173,7 @@ python src\sql_queries.py
 ### Using Jupyter Notebooks
 ```cmd
 jupyter notebook
-# Navigate to `notebooks/` for interactive exploration
+# Navigate to (notebooks/) for interactive exploration
 ```
 
 ---
@@ -401,5 +401,6 @@ You'll learn:
 
 
 **💼 Looking for a PM who can do this for your product? Let's connect!**
+
 
 
