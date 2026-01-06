@@ -26,6 +26,10 @@ ENV/
 env/
 .venv
 
+# Data (Exclude large files)
+data/raw/
+data/synthetic/user_events.csv
+
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb_checkpoints
@@ -65,4 +69,5 @@ outputs/reports/*.pdf
 *.sqlite3
 
 # Environment variables
+
 .env
