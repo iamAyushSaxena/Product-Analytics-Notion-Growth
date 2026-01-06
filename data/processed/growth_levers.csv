@@ -1,0 +1,6 @@
+lever_name,target_stage,expected_lift,current_rate,improved_rate,additional_users_at_target,additional_final_users,additional_annual_revenue,confidence,description,confidence_weight,roi_score
+viral_sharing,collaboration,0.15,0.5126922713975653,0.5895961121072001,-642.8135698782717,1406.699999999999,17555.615999999987,medium,Optimize share mechanics and invites,0.7,12288.93119999999
+api_integrations,habit_formation,0.1,0.8526885397598117,0.937957393735793,3992.3730120094187,937.8000000000011,11703.744000000013,high,Build integrations with popular tools,1.0,11703.744000000013
+mobile_experience,engagement,0.12,0.9997184514831574,1.1196846656611363,5690.397425842137,1125.3600000000024,14044.492800000031,medium,Improve mobile app engagement,0.7,9831.144960000021
+template_discovery,activation,0.08,0.9945,1.07406,3978.0,750.2400000000016,9362.99520000002,high,Improve template gallery and recommendations,1.0,9362.99520000002
+seo_content,awareness,0.25,1.0,1.25,0.0,0.0,0.0,high,Create template and use-case SEO content,1.0,0.0
