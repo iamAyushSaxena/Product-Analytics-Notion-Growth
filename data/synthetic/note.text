@@ -1,0 +1,19 @@
+IMPORTANT: Missing Large Data Files
+
+You may notice that "user_events.csv" is missing from this folder. This is intentional.
+
+1. WHY IS IT MISSING?
+   The full event stream dataset is approximately 750MB, which exceeds GitHub's standard file size limit (100MB).
+
+2. HOW TO GET THE DATA?
+   You do not need to download it externally. This project includes a synthetic data generator that builds the dataset locally on your machine.
+
+   Simply run the main analysis pipeline from the project root:
+   
+       python scripts/run_full_analysis.py
+
+   Once the script finishes (approx. 20 minutes), it will automatically generate:
+   - "user_events.csv" (~750MB)
+   - "user_profiles.csv"
+   
+   These files will appear in this directory, ready for analysis.
