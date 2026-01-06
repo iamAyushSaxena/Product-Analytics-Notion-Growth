@@ -1,0 +1,47 @@
+name: Simple Analytics Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Quick Validation
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.13'
+    
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    
+    - name: Check imports
+      run: |
+        python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        from config import *
+        from data_generator import NotionDataGenerator
+        from metrics_framework import MetricsFramework
+        print('✅ All imports successful')
+        "
+    
+    - name: Validate configuration
+      run: |
+        python -c "
+        import sys
+        sys.path.insert(0, 'src')
+        from config import *
+        print(f'✅ Config loaded: {TOTAL_USERS:,} total users')
+        "
+    
+    - name: Success
+      run: echo "✅ Basic validation passed!"
