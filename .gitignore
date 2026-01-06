@@ -30,6 +30,9 @@ env/
 data/raw/
 data/synthetic/user_events.csv
 
+# Exclude editor settings
+.vscode/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb_checkpoints
@@ -71,3 +74,4 @@ outputs/reports/*.pdf
 # Environment variables
 
 .env
+
