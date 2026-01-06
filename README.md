@@ -1,5 +1,5 @@
 ![CI/CD Status](https://github.com/iamAyushSaxena/Product-Analytics-Notion-Growth/actions/workflows/main.yml/badge.svg)
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-success.svg)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange.svg)
@@ -381,6 +381,7 @@ For questions or issues:
 
 
 **💼 Looking for a PM who can do this for your product? Let's connect!**
+
 
 
 
